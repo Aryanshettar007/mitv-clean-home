@@ -1,0 +1,10 @@
+# Device-specific data: TV settings/IDs and the local change log
+backup/
+state/
+
+# Build output
+launcher/local.properties
+launcher/.gradle/
+launcher/build/
+launcher/app/build/
+.DS_Store

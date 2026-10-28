@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Launcher configuration. Edit this file, then run ../install-launcher.sh.
+  Package names: on the TV run `adb shell pm list packages`.
+-->
+<resources>
+
+    <!-- Apps pinned to the dock row at the bottom, in this order. Missing apps are skipped. -->
+    <string-array name="dock_apps">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>in.startv.hotstar</item>
+        <item>com.apple.atve.androidtv.appletv</item>
+    </string-array>
+
+    <!-- Apps never shown as tiles (e.g. the Live TV app, which the Inputs menu already covers). -->
+    <string-array name="hidden_apps">
+        <item>com.android.tv</item>
+        <item>com.mitv.tvhome.atv</item>
+        <item>com.xiaomi.mitv.smartshare</item>
+    </string-array>
+
+    <!-- The TV's Live TV / tuner app, offered at the end of the Inputs menu. Leave empty to omit. -->
+    <string name="live_tv_package" translatable="false">com.android.tv</string>
+
+    <!-- Name shown after the greeting ("Good Evening! Shettar"). Leave empty for just the greeting. -->
+    <string name="greeting_name" translatable="false">Shettar</string>
+
+    <!-- Tiles per row in the grid; the dock always has this many slots. -->
+    <integer name="columns">5</integer>
+
+    <!-- Background wallpapers (res/drawable-nodpi, public domain / CC0, see WALLPAPER-CREDITS.txt),
+         cross-faded every wallpaper_minutes while the home screen is visible. -->
+    <array name="wallpapers">
+        <item>@drawable/wall_01</item>
+        <item>@drawable/wall_02</item>
+        <item>@drawable/wall_03</item>
+        <item>@drawable/wall_04</item>
+        <item>@drawable/wall_05</item>
+        <item>@drawable/wall_06</item>
+        <item>@drawable/wall_07</item>
+        <item>@drawable/wall_08</item>
+        <item>@drawable/wall_09</item>
+        <item>@drawable/wall_10</item>
+    </array>
+    <integer name="wallpaper_minutes">3</integer>
+</resources>

@@ -1,0 +1,12 @@
+# Wallpapers bundled in launcher/app/src/main/res/drawable-nodpi (cropped to 1920x1080).
+# All are public domain or CC0, from Wikimedia Commons.
+wall_01  CC0  https://commons.wikimedia.org/wiki/File:Beech_and_ferns_in_Gullmarsskogen.jpg
+wall_02  Public domain  https://commons.wikimedia.org/wiki/File:Birchwood_Slavnoe_2012_G1.jpg
+wall_03  CC0  https://commons.wikimedia.org/wiki/File:Alone_in_the_unspoilt_wilderness_(Unsplash).jpg
+wall_04  CC0  https://commons.wikimedia.org/wiki/File:Atardecer_en_Selva_del_Estado_Anzoategui_en_Chaguaramal.jpg
+wall_05  CC0  https://commons.wikimedia.org/wiki/File:Aiguille_Rousse_in_sea_of_clouds,_2018.jpg
+wall_06  CC0  https://commons.wikimedia.org/wiki/File:Rainier20200906.jpg
+wall_07  CC0  https://commons.wikimedia.org/wiki/File:Wetterspitzen_(Stubaier_Alpen).jpg
+wall_08  Public domain  https://commons.wikimedia.org/wiki/File:Letchworth_State_Park_in_autumn.JPG
+wall_09  CC0  https://commons.wikimedia.org/wiki/File:Ulaan_Tsutgalan_Waterfall.jpg
+wall_10  Public domain  https://commons.wikimedia.org/wiki/File:Forest_road_Slavne_2017_G8.jpg

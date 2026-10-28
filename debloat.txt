@@ -1,0 +1,43 @@
+# Packages to disable (pm disable-user). One per line; '#' comments ignored.
+# Kept on purpose: Xiaomi OTA (com.xiaomi.mitv.updateservice), HDMI/Live TV
+# (droidlogic*, xiaomi.tvservice, mitv.service, com.android.tv), Chromecast.
+
+# Telemetry
+com.miui.tv.analytics
+com.xiaomi.statistic
+com.google.android.feedback
+
+# Ads / sponsored content
+com.google.android.tvrecommendations
+com.mitv.tvhome.michannel
+com.mitv.tvhome.mitvplus
+com.xm.webcontent
+
+# Silent partner-app installers
+android.autoinstalls.config.xiaomi.amelie
+android.autoinstalls.config.xioami.dangal
+
+# Bloat
+com.xiaomi.floatingframe
+com.xiaomi.mitv.tvmanager
+com.xiaomi.mitv.handbook
+com.google.android.play.games
+com.google.android.videos
+com.xiaomi.mimusic2
+com.mitv.dream
+com.mitv.gallery
+
+# Google Assistant (voice search on remote stops working)
+com.google.android.katniss
+
+# Streaming / media apps not used
+com.balaji.alt.partner
+com.htlabs.ottplay
+com.discoveryplus.mitv
+com.mxtech.videoplayer.television
+app.netmirror.newtv
+
+# Stock home screens, replaced by the custom launcher (install-launcher.sh).
+# The Google TV launcher has a higher HOME priority than any user app, so it must be off.
+com.mitv.tvhome.atv
+com.google.android.tvlauncher
